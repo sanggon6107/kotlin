@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9808931e-9a98-40c7-a5b5-d2eddb48d262" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YyH89hc8wyTmYb5a5UIJlhvcaz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Kotlin.Sol10_약수의_합Kt">
+    <configuration name="IntFloatKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Programmers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="IntFloatKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sol10_약수의_합Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Programmers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Sol10_약수의_합Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sol4_모의고사Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Programmers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Sol4_모의고사Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sol8_이상한_문자_만들기Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Programmers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Sol8_이상한_문자_만들기Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sol9_콜라츠_추측Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Programmers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Sol9_콜라츠_추측Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Sol10_약수의_합Kt" />
+        <item itemvalue="Kotlin.Sol9_콜라츠_추측Kt" />
+        <item itemvalue="Kotlin.Sol8_이상한_문자_만들기Kt" />
+        <item itemvalue="Kotlin.Sol4_모의고사Kt" />
+        <item itemvalue="Kotlin.IntFloatKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9808931e-9a98-40c7-a5b5-d2eddb48d262" name="Default Changelist" comment="" />
+      <created>1583907751286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583907751286</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="99" key="#Project_Structure" timestamp="1583907901157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="99" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583907901157" />
+    <state x="382" y="153" key="FileChooserDialogImpl" timestamp="1584690864401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="382" y="153" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584690864401" />
+    <state width="914" height="126" key="GridCell.Tab.0.bottom" timestamp="1584690878090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="126" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584690878090" />
+    <state width="914" height="126" key="GridCell.Tab.0.center" timestamp="1584690878090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="126" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584690878090" />
+    <state width="914" height="126" key="GridCell.Tab.0.left" timestamp="1584690878090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="126" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584690878090" />
+    <state width="914" height="126" key="GridCell.Tab.0.right" timestamp="1584690878090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="126" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584690878090" />
+    <state width="1863" height="335" key="GridCell.Tab.1.bottom" timestamp="1584003622413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584003622413" />
+    <state width="1863" height="335" key="GridCell.Tab.1.center" timestamp="1584003622413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="335" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584003622413" />
+    <state width="1863" height="335" key="GridCell.Tab.1.left" timestamp="1584003622413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="335" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584003622413" />
+    <state width="1863" height="335" key="GridCell.Tab.1.right" timestamp="1584003622413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="335" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584003622413" />
+    <state x="548" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1584671260392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="548" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584671260392" />
+    <state x="783" y="377" width="731" height="1017" key="dock-window-1" timestamp="1584425338516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="783" y="377" width="731" height="1017" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584425338516" />
+    <state x="454" y="141" width="1422" height="866" key="dock-window-2" timestamp="1584002659726">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="454" y="141" width="1422" height="866" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584002659726" />
+    <state x="0" y="226" key="new project wizard" timestamp="1584690876425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="226" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584690876425" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/가운데 글자 가져오기.kt</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
