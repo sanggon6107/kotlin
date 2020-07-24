@@ -1,9 +1,10 @@
 package chap08.section1
 
 class Box<T>(t : T){
+    // class Box<T>(var name : T){...}
+
     var name = t
 }
-
 
 fun main(){
     val box1 : Box<Int> = Box<Int>(1)

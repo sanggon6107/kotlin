@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f104d9-31fc-448c-99c5-47ec862f7031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/src/chap10/section2/lambda,DSL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/src/chap10/section3/fileIO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap10/section2/Lambda_DSLKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap10/section3/FileIOKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코딩 도장/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../코딩 도장/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/src/chap08/section1/generic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap08/section1/generic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/META-INF/Module1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/META-INF/Module1.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap08/section1/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap08/section1/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap08/section1/GenericKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap08/section1/GenericKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +44,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Kotlin.GenericKt">
+  <component name="RunManager" selected="Kotlin.FileIOKt">
+    <configuration name="FileIOKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Module1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chap10.section3.FileIOKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Module1" />
       <option name="VM_PARAMETERS" />
@@ -80,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FileIOKt" />
         <item itemvalue="Kotlin.GenericKt" />
         <item itemvalue="Kotlin.chap09.section2.Sec1SplitKt" />
         <item itemvalue="Kotlin.chap09.section1.GenerateSeqKt" />
@@ -100,25 +120,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="272" y="118" key="#FileIOKt" timestamp="1595565311165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="272" y="118" key="#FileIOKt/0.0.1920.1040@0.0.1920.1040" timestamp="1595565311165" />
     <state x="248" y="173" key="#Project_Structure" timestamp="1595554052268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="248" y="173" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595554052268" />
-    <state width="1115" height="169" key="GridCell.Tab.0.bottom" timestamp="1595555278213">
+    <state x="223" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595563334674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595555278213" />
-    <state width="1115" height="169" key="GridCell.Tab.0.center" timestamp="1595555278213">
+    <state x="223" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595563334674" />
+    <state width="1115" height="213" key="GridCell.Tab.0.bottom" timestamp="1595567583818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="169" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595555278213" />
-    <state width="1115" height="169" key="GridCell.Tab.0.left" timestamp="1595555278213">
+    <state width="1115" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595567583818" />
+    <state width="1115" height="213" key="GridCell.Tab.0.center" timestamp="1595567583818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="169" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595555278213" />
-    <state width="1115" height="169" key="GridCell.Tab.0.right" timestamp="1595555278213">
+    <state width="1115" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595567583818" />
+    <state width="1115" height="213" key="GridCell.Tab.0.left" timestamp="1595567583818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="169" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595555278213" />
+    <state width="1115" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595567583818" />
+    <state width="1115" height="213" key="GridCell.Tab.0.right" timestamp="1595567583818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1115" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595567583818" />
   </component>
 </project>
