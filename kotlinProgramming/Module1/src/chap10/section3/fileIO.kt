@@ -16,7 +16,7 @@ fun main(){
     try{
         Files.write(Paths.get(path), text.toByteArray(),StandardOpenOption.CREATE)// nio.file.Files
 
-        val file = File(PrintWriter_path)
+        val file = File(PrintWriter_path) //io
         val printWriter = PrintWriter(file)
 
         printWriter.println(outString)
