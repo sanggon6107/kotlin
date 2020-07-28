@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f104d9-31fc-448c-99c5-47ec862f7031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/src/chap11/section2/serialCoroutine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/CoroutineKt$main$job$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/SerialCoroutineKt$work1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/SerialCoroutineKt$work2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/SerialCoroutineKt$worksInSerial$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/SerialCoroutineKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/Module1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/Module1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/src/chap10/section3/fileIO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap10/section3/fileIO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinProgramming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/src/chap11/section1/coroutine,thread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap11/section1/coroutine,thread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/src/chap11/section2/coroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap11/section2/coroutine.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module1/META-INF/Module1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/META-INF/Module1.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section1/Coroutine_threadKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section1/Coroutine_threadKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section1/SimpleRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section1/SimpleRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section1/SimpleRunnable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section1/SimpleRunnable2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section1/SimpleThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section1/SimpleThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section2/CoroutineKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/CoroutineKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section2/CoroutineKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/CoroutineKt$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section2/CoroutineKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section2/CoroutineKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +56,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Kotlin.CoroutineKt">
+  <component name="RunManager" selected="Kotlin.SerialCoroutineKt">
     <configuration name="CoroutineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Module1" />
       <option name="VM_PARAMETERS" />
@@ -99,14 +109,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap09.section2.Sec1SplitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="SerialCoroutineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Module1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap09.section2.Sec1SplitKt" />
+      <option name="MAIN_CLASS_NAME" value="chap11.section2.SerialCoroutineKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SerialCoroutineKt" />
         <item itemvalue="Kotlin.CoroutineKt" />
         <item itemvalue="Kotlin.Coroutine_threadKt" />
         <item itemvalue="Kotlin.FileIOKt" />
         <item itemvalue="Kotlin.GenericKt" />
-        <item itemvalue="Kotlin.chap09.section2.Sec1SplitKt" />
       </list>
     </recent_temporary>
   </component>
@@ -144,41 +154,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="248" y="173" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595554052268" />
-    <state x="223" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595563334674">
+    <state x="223" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595896122890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="223" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595563334674" />
+    <state x="223" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595896122890" />
     <state x="550" y="201" key="FileChooserDialogImpl" timestamp="1595813004081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="201" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595813004081" />
-    <state width="1115" height="236" key="GridCell.Tab.0.bottom" timestamp="1595813984636">
+    <state width="1167" height="153" key="GridCell.Tab.0.bottom" timestamp="1595898061101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595813984636" />
-    <state width="1115" height="236" key="GridCell.Tab.0.center" timestamp="1595813984636">
+    <state width="1167" height="153" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595898061101" />
+    <state width="1167" height="153" key="GridCell.Tab.0.center" timestamp="1595898061101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595813984636" />
-    <state width="1115" height="236" key="GridCell.Tab.0.left" timestamp="1595813984635">
+    <state width="1167" height="153" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595898061101" />
+    <state width="1167" height="153" key="GridCell.Tab.0.left" timestamp="1595898061100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595813984635" />
-    <state width="1115" height="236" key="GridCell.Tab.0.right" timestamp="1595813984636">
+    <state width="1167" height="153" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595898061100" />
+    <state width="1167" height="153" key="GridCell.Tab.0.right" timestamp="1595898061101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595813984636" />
+    <state width="1167" height="153" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595898061101" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1595813188658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595813188658" />
-    <state x="182" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1595809508176">
+    <state x="182" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1595895073015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595809508176" />
+    <state x="182" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595895073015" />
     <state x="750" y="292" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595813152101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="292" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1595813152101" />
+    <state x="998" y="0" width="929" height="1047" key="dock-window-1" timestamp="1595895257786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="998" y="0" width="929" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1595895257786" />
   </component>
 </project>

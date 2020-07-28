@@ -1,6 +1,5 @@
 package chap11.section1
 
-import kotlinx.coroutines.*
 
 class SimpleThread : Thread(){
     override fun run(){
