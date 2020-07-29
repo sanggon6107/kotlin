@@ -2,38 +2,42 @@ package chap11.section3
 
 import kotlinx.coroutines.*
 
-fun main() = runBlocking{
-    async{
-        delay(1L)
-        for (j in 101..200){
-            println(j)
-        }
-        println("async1")
-        println("async1")
-        println("async1")
-        println("async1")
-        println("async1")
+suspend fun job1(){
+    delay(1L)
+    for (j in 101..200){
+        println(j)
     }
-    async{
-        delay(1L)
-        for (k in 201..300){
-            println(k)
-        }
-        println("async2")
-        println("async2")
-        println("async2")
-        println("async2")
-        println("async2")
-        println("async2")
+    println("async1")
+    println("async1")
+    println("async1")
+    println("async1")
+    println("async1")
+}
+
+suspend fun job2(){
+    delay(1L)
+    for (k in 201..300){
+        println(k)
     }
-    for (i in 1 .. 100){
-        println(i)
+    println("async2")
+    println("async2")
+    println("async2")
+    println("async2")
+    println("async2")
+    println("async2")
+}
+
+fun main(){
+    val val1 = GlobalScope.async{
+        job1()
     }
-    println("main")
-    println("main")
-    println("main")
-    println("main")
-    println("main")
-    println("main")
-    println("main")
+
+    val val2 = GlobalScope.async{
+        job2()
+    }
+
+    GlobalScope.launch {
+        println("${val1}, ${val2}")
+    }
+    readLine()
 }
