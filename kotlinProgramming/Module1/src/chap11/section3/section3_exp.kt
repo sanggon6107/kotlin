@@ -3,7 +3,7 @@ package chap11.section3
 import kotlinx.coroutines.*
 
 suspend fun job1(){
-    delay(1L)
+    delay(100L)
     for (j in 101..200){
         println(j)
     }
@@ -15,7 +15,7 @@ suspend fun job1(){
 }
 
 suspend fun job2(){
-    delay(1L)
+    delay(200L)
     for (k in 201..300){
         println(k)
     }
@@ -37,7 +37,7 @@ fun main(){
     }
 
     GlobalScope.launch {
-        println("${val1}, ${val2}")
+        println("${val1.await()}, ${val2.await()}")
     }
     readLine()
 }

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f104d9-31fc-448c-99c5-47ec862f7031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$job1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$job2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$main$val1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$main$val2$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module1/src/chap11/section3/section3_exp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap11/section3/section3_exp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$main$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$main$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt$main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Section3_expKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +40,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="diff.base" />
   </component>
   <component name="RunManager" selected="Kotlin.Section3_expKt">
     <configuration name="ALotKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -89,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Section3_expKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Section3_expKt" type="JetRunConfigurationType" factoryName="Kotlin" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="Module1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="chap11.section3.Section3_expKt" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +140,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="248" y="173" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595554052268" />
+    <state x="304" y="118" key="#Section3_expKt" timestamp="1595989413400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="304" y="118" key="#Section3_expKt/0.0.1920.1040@0.0.1920.1040" timestamp="1595989413400" />
     <state x="223" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595896122890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -155,26 +152,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="201" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595813004081" />
-    <state width="1179" height="203" key="GridCell.Tab.0.bottom" timestamp="1595985416774">
+    <state width="1179" height="203" key="GridCell.Tab.0.bottom" timestamp="1595989421646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595985416774" />
-    <state width="1179" height="203" key="GridCell.Tab.0.center" timestamp="1595985416774">
+    <state width="1179" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595989421646" />
+    <state width="1179" height="203" key="GridCell.Tab.0.center" timestamp="1595989421645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595985416774" />
-    <state width="1179" height="203" key="GridCell.Tab.0.left" timestamp="1595985416774">
+    <state width="1179" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595989421645" />
+    <state width="1179" height="203" key="GridCell.Tab.0.left" timestamp="1595989421645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595985416774" />
-    <state width="1179" height="203" key="GridCell.Tab.0.right" timestamp="1595985416774">
+    <state width="1179" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595989421645" />
+    <state width="1179" height="203" key="GridCell.Tab.0.right" timestamp="1595989421645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595985416774" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1595813188658">
+    <state width="1179" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595989421645" />
+    <state x="512" y="122" key="SettingsEditor" timestamp="1595987938848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595813188658" />
+    <state x="512" y="122" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595987938848" />
     <state x="182" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1595982199873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
