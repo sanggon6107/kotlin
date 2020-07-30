@@ -2,7 +2,7 @@ package chap11.section3
 
 import kotlinx.coroutines.*
 
-suspend fun job1(){
+suspend fun job1() : String{
     delay(100L)
     for (j in 101..200){
         println(j)
@@ -12,9 +12,11 @@ suspend fun job1(){
     println("async1")
     println("async1")
     println("async1")
+
+    return "job1"
 }
 
-suspend fun job2(){
+suspend fun job2() : String{
     delay(200L)
     for (k in 201..300){
         println(k)
@@ -25,6 +27,9 @@ suspend fun job2(){
     println("async2")
     println("async2")
     println("async2")
+
+    return "job2"
+
 }
 
 fun main(){
@@ -37,6 +42,8 @@ fun main(){
     }
 
     GlobalScope.launch {
+        println("mainThread")
+
         println("${val1.await()}, ${val2.await()}")
     }
     readLine()
