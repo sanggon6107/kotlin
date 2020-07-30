@@ -29,7 +29,6 @@ suspend fun job2() : String{
     println("async2")
 
     return "job2"
-
 }
 
 fun main(){
@@ -42,9 +41,13 @@ fun main(){
     }
 
     GlobalScope.launch {
-        println("mainThread")
+        println("mainThread")// async는 delay가 있으므로 먼저 실행
+        val a = readLine()// readLine으로 지연되는동안 지연함수(async) 실행
+        println("readLIne(mainThread) : over")//readLine끝나면 실행후 최종행으로 이동
 
-        println("${val1.await()}, ${val2.await()}")
+        println("${val1.await()}, ${val2.await()}") // async로 이동
     }
+    println("out of launch") // GlobalScope가 실행되기 전에 최초 실행
     readLine()
+    println("readLine(out of launch : over)")
 }
