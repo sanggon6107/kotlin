@@ -2,7 +2,7 @@ package chap11.section2
 
 import kotlinx.coroutines.*
 
-fun main() = runBlocking{
+fun main() = runBlocking{ //메인 스레드
 
     val jobs = List(100_000){
         launch {
