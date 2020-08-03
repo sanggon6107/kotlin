@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1f104d9-31fc-448c-99c5-47ec862f7031" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/src/chap11/section2/join_exp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap11/section2/join_exp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/src/chap11/section3/section3_exp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap11/section3/section3_exp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/src/chap11/section3/thread control.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/src/chap11/section3/thread control.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,10 +171,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="512" y="122" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595987938848" />
-    <state x="182" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1595982199873">
+    <state x="182" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1596416055612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595982199873" />
+    <state x="182" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596416055612" />
     <state x="750" y="292" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595813152101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,5 +183,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="998" y="0" width="929" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1595895257786" />
+    <state x="227" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1596416390593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="227" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596416390593" />
   </component>
 </project>
