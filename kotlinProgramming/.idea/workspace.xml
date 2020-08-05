@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f104d9-31fc-448c-99c5-47ec862f7031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/src/chap11/section3/coroutine_while.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Coroutine_whileKt$main$1$jobs$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Coroutine_whileKt$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Coroutine_whileKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Repeat_cancelKt$main$1$job$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Repeat_cancelKt$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/Repeat_cancelKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/src/chap11/section3/channel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/ChannelKt$mainn$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/ChannelKt$mainn$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module1/chap11/section3/ChannelKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module1/META-INF/Module1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module1/META-INF/Module1.kotlin_module" afterDir="false" />
     </list>
@@ -48,15 +45,28 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="diff.base" />
   </component>
-  <component name="RunManager" selected="Kotlin.Coroutine_whileKt">
-    <configuration name="ALotKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Channel_bufferKt">
+    <configuration name="ChannelKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Module1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap11.section2.ALotKt" />
+      <option name="MAIN_CLASS_NAME" value="chap11.section3.ChannelKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Channel_bufferKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Module1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chap11.section3.Channel_bufferKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Section3_expKt" type="JetRunConfigurationType" factoryName="Kotlin" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Module1" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap11.section3.Section3_expKt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Channel_bufferKt" />
+        <item itemvalue="Kotlin.ChannelKt" />
         <item itemvalue="Kotlin.Coroutine_whileKt" />
         <item itemvalue="Kotlin.RepeatKt" />
         <item itemvalue="Kotlin.Join_expKt" />
-        <item itemvalue="Kotlin.Section3_expKt" />
-        <item itemvalue="Kotlin.ALotKt" />
       </list>
     </recent_temporary>
   </component>
@@ -158,30 +155,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="201" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595813004081" />
-    <state width="1188" height="203" key="GridCell.Tab.0.bottom" timestamp="1596503682531">
+    <state width="1188" height="329" key="GridCell.Tab.0.bottom" timestamp="1596589166767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1188" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596503682531" />
-    <state width="1188" height="203" key="GridCell.Tab.0.center" timestamp="1596503682531">
+    <state width="1188" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166767" />
+    <state width="1188" height="329" key="GridCell.Tab.0.center" timestamp="1596589166767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1188" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596503682531" />
-    <state width="1188" height="203" key="GridCell.Tab.0.left" timestamp="1596503682531">
+    <state width="1188" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166767" />
+    <state width="1188" height="329" key="GridCell.Tab.0.left" timestamp="1596589166767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1188" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596503682531" />
-    <state width="1188" height="203" key="GridCell.Tab.0.right" timestamp="1596503682531">
+    <state width="1188" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166766" />
+    <state width="1188" height="329" key="GridCell.Tab.0.right" timestamp="1596589166767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1188" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596503682531" />
+    <state width="1188" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166767" />
+    <state width="1188" height="329" key="GridCell.Tab.1.bottom" timestamp="1596589166767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1188" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166767" />
+    <state width="1188" height="329" key="GridCell.Tab.1.center" timestamp="1596589166767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1188" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166767" />
+    <state width="1188" height="329" key="GridCell.Tab.1.left" timestamp="1596589166767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1188" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166767" />
+    <state width="1188" height="329" key="GridCell.Tab.1.right" timestamp="1596589166767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1188" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596589166767" />
     <state x="512" y="122" key="SettingsEditor" timestamp="1595987938848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="512" y="122" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595987938848" />
-    <state x="182" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1596416055612">
+    <state x="182" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1596585916994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596416055612" />
+    <state x="182" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596585916994" />
     <state x="750" y="292" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595813152101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
